@@ -1,3 +1,11 @@
+package chatWrapgo
+
+import (
+	"encoding/json"
+	"fmt"
+	"net/http"
+)
+
 type Chatbot struct {
 	Message string                 `json:"message"`
 }
