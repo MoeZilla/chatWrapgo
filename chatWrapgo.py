@@ -16,7 +16,7 @@ func chatbot(MESSAGE, BOTNAME, OWNERNAME, USERID string) (*Chatbot, error) {
 		return nil, err
 	}
 	defer resp.Body.Close()
-	var chat = new(Chatbot)
+	var chat = new(Response)
 	json.NewDecoder(resp.Body).Decode(&chat)
 	return &chat.Data.Chatbot, nil
 }
