@@ -9,7 +9,7 @@ Unofficial Chatbot API wrapper for GoLang.
 package setup
 
 import (
-	"github.com/moezilla/chatWrapgo"
+	"github.com/ItelAi/chatWrapgo"
 	"Setup"
 )
 
